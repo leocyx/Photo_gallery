@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>上傳圖片</title>
+    <link rel="icon" href="./icon.jpg">
+</head>
+
+<body>
+    <div id="select_bar">
+        <nav>
+            <ul>
+                <li class="bar"><a href="/">首頁</a></li>
+                <li class="bar"><a href="./upload_img">上傳圖片</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="upload_option">
+        <h2>簡介</h2>
+        <textarea class="option content" id="text"></textarea>
+        <div>
+            <input type="file" id="file" name="file" multiple>
+            <button onclick="upload()">上傳</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

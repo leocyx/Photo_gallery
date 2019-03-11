@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>圖片天地</title>
+    <link rel="icon" href="./icon.jpg">
+</head>
+
+<body onload="dispalyAjax()">
+    <div style="position:fixed; width:100%;height:60px;;z-index: 1;top:0px;">
+        <div id="select_bar">
+            <nav>
+                <ul>
+                    <li class="bar"><a href="/">首頁</a></li>
+                    <li class="bar"><a href="./upload_img">上傳圖片</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="big_display_fixed">
+        <div id="big_display_bg"></div>
+        <div id="big_display_figure">
+            <img id="big_display" src="#" />
+            <button style="position: absolute;top:0; " onclick="close_big_img()">X</button>
+        </div>
+    </div>
+    <div id="images">
+
+    </div>
+
+</body>
+
+</html>
