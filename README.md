@@ -7,12 +7,12 @@ A simple Photo gallery
 npm install
 ```
 
-##執行
+## 執行
 ```
 cd Photo_gallery
 node app.js
 ```
 
-##功能
+## 功能
 可以上傳圖片到upload資料夾並在網頁上顯示圖片與註解
 
